@@ -1,5 +1,6 @@
 INSTRUCTIONS
   Put the paths to your two JSON data sources in the 'paths.json' file. They must be in the same domain as the app.
+  Load index.html in your browser.
 
 ASSUMPTIONS
   * The data sources are formatted correctly.
