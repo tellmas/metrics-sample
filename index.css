@@ -1,0 +1,44 @@
+body {
+	font-size: 15px;
+	margin: 0;
+	padding: 10px;
+}
+
+p {
+	margin: 0 0 10px 0;
+	max-width: 500px;
+}
+
+#lib-form ul {
+	padding: 0;
+	margin: 0;
+}
+#lib-form ul > li {
+	display: inline-block;
+	width: 6em;
+}
+#lib-form input[type=date] {
+	padding: 1px 2px;
+	width: 75px;
+}
+
+#lib-user-ratio-table {
+	margin: 15px 0 0 0;
+}
+#lib-user-ratio-table caption {
+	font-weight: bold;
+}
+#lib-user-ratio-table th,
+#lib-user-ratio-table td {
+	padding: 2px;
+}
+#lib-user-ratio-table th {
+	text-align: center;
+}
+#lib-user-ratio-table td {
+	text-align: right;
+}
+
+#lib-user-ratio-table tfoot td {
+	font-weight: bold;
+}

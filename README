@@ -1,0 +1,6 @@
+INSTRUCTIONS
+  Put the paths to your two JSON data sources in the 'paths.json' file. They must be in the same domain as the app.
+
+ASSUMPTIONS
+  * The data sources are formatted correctly.
+  * Each entry in one data source, has a corresponding entry in the other source (the dates match).

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>- by Brian Mastell</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<p>Please enter dates in the format YYYY-MM-DD. If a date field is blank or not formatted correctly, for the Start Date the earliest date from the data source will be used, for the End Date the last date from the data source will be used.</p>
+	<form id="lib-form">
+		<ul>
+			<li>
+				<label for="lib-start-date">Start Date: </label>
+				<input type="date" value="2010-12-01" id="lib-start-date" maxlength="10">
+			</li>
+			<li>
+				<label for="lib-end-date">End Date: </label>
+				<input type="date" value="2010-12-20" id="lib-end-date" maxlength="10">
+			</li>
+			<li>
+				<input type="submit" value="Get your data">
+			</li>
+		</ul>
+	</form>
+	<table id="lib-user-ratio-table" border="1">
+		<caption>Active User Ratio <span></span></caption>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Total Users</th>
+				<th>Active Users</th>
+				<th>Active User Ratio</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="3">Total Active User Ratio:</td>
+				<td id="lib-user-ratio"></td>
+			</tr>
+		</tfoot>
+		<tbody>
+		</tbody>
+	</table>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="lib.js"></script>
+	<script src="ui.js"></script>
+</body>
+</html>
